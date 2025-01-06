@@ -1,0 +1,87 @@
+/* Styling the entire navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333; /* Dark background for contrast */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo container */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo text (h1) styling */
+.logo h1 {
+  font-size: 1.8rem; /* Adjust the font size for better visibility */
+  color: #00ccff; /* Bright gold color for prominence */
+  font-weight: bold; /* Make it bold */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow for a 3D effect */
+  margin: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for logo */
+.logo h1:hover {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+  color: #006aff; /* Change the color to a lighter gold */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #444;
+  color: white;
+  list-style: none;
+  padding: 5px 0;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 8px 15px;
+}
+
+.dropdown-menu li a, .logout-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-menu li a:hover, .logout-link:hover {
+  background-color: #555;
+}

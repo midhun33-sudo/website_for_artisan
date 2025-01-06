@@ -1,0 +1,188 @@
+/* HomePage.css */
+.home-page {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 20px 50px 0px 50px;
+    text-align: center;
+    border-radius: 24px;
+  }
+  
+  header h1 {
+    color: black;
+    font-size: 30px;  /* Set font size to 30px */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 24px;
+    margin: 20px 50px 0px 50px;
+  }
+
+  /* HomePage.css */
+
+/* HomePage.css */
+
+
+  
+  /* Handloom Image Styling */
+  .handloom-image {
+    width: 93%;
+    height: 100%;
+    margin: 50px;
+    object-fit: cover; /* Ensures image covers the entire container */
+    border-radius: 25px;
+  }
+  
+  /* HomePage.css */
+
+/* Full-Screen Container with rounded edges */
+.home-container {
+    height: 100%;
+    background-color: #f8f9fa; /* Slightly darker background */
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* General Styles for Each Section Banner */
+  .section-banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden; /* Ensures the image fits neatly */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Banner Image Styling */
+  .products-banner {
+    background-image: url('https://thumbs.dreamstime.com/z/girls-working-hand-loom-weaving-24014440.jpg'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .events-banner {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shreenivassilks.com%2Fpages%2Fmaggam-handloom-event&psig=AOvVaw25HbsV-5R79MyjNFAkTDmU&ust=1734628889005000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICW9LDqsYoDFQAAAAAdAAAAABAE'); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .orders-banner {
+    background-image: url(''); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .sales-banner {
+    background-image: url(''); /* Replace with your actual image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Content Inside Each Banner (Text and Button) */
+  .banner-content {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+  }
+  
+  /* Heading Styling */
+  .banner-content h2 {
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: lightcyan;
+  }
+  
+  /* Quote Styling */
+  .banner-content p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: lightgoldenrodyellow;
+  }
+  
+  /* Button Styling */
+  .cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+  }
+  
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  
+  
+  .featured-products {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tips {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

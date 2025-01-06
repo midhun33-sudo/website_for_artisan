@@ -1,0 +1,65 @@
+.order-list {
+  width: 100%;
+  padding: 15px; /* Increased padding for a more spacious layout */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.order-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-list th, .order-list td {
+  padding: 5px; /* Increased padding for better readability */
+  text-align: left;
+}
+
+.order-list th {
+  background-color: #6200ee; /* Primary color for headers */
+  color: white;
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.order-list td {
+  border-bottom: 1px solid #ddd;
+}
+
+.order-list tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.order-list button {
+  background-color: #6200ee; /* Consistent button color */
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Increased padding for better touch targets */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform transition */
+}
+
+.order-list button:hover {
+  background-color: #3700b3; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .order-list {
+      padding: 10px; /* Reduced padding on smaller screens */
+  }
+
+  .order-list th, .order-list td {
+      padding: 8px; /* Adjusted padding for smaller screens */
+      font-size: 14px; /* Slightly smaller font size for better fit */
+  }
+
+  .order-list button {
+      width: 100%; /* Full width buttons on mobile devices */
+      margin-top: 10px; /* Space above buttons when stacked */
+      padding: 12px; /* Increased padding for easier tapping */
+  }
+}

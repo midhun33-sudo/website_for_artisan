@@ -1,0 +1,9 @@
+.sales-row {
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 15px;
+  }
+  

@@ -1,0 +1,72 @@
+/* General container styling */
+.sales-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.sales-container h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Error message styling */
+.sales-container p {
+    color: red;
+    font-weight: bold;
+}
+
+/* Button styling */
+.sales-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.sales-container button:hover {
+    background-color: #0056b3;
+}
+
+/* List styling */
+.sales-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sales-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sales-container li:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+/* Sale item text styling */
+.sales-container li span {
+    font-size: 16px;
+    color: #555;
+    margin-right: 10px;
+}
+
+.sales-container li button {
+    margin-left: 10px;
+}

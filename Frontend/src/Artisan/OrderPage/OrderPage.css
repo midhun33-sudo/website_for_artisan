@@ -1,0 +1,74 @@
+.order-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.order-page h2 {
+  text-align: center;
+  font-size: 26px; /* Slightly larger font size */
+  margin-bottom: 20px;
+  color: #333; /* Darker text color for better readability */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.order-page .filters {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+}
+
+.order-page .filters select,
+.order-page .filters button {
+  padding: 10px 15px; /* Increased padding for better touch targets */
+  border-radius: 5px; /* Rounded corners for buttons and selects */
+  border: 1px solid #ccc; /* Light border for input elements */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.order-page .filters select:hover,
+.order-page .filters button:hover {
+  background-color: #007bff; /* Change background on hover */
+  color: white; /* Change text color on hover */
+}
+
+.order-page .order-list {
+  margin-top: 20px;
+}
+
+.order-page .order-list-item {
+  padding: 15px;
+  background-color: #fff; /* White background for list items */
+  border-radius: 5px; /* Rounded corners for list items */
+  margin-bottom: 10px; /* Spacing between list items */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for list items */
+}
+
+@media (max-width: 768px) {
+  .order-page {
+      padding: 15px; /* Reduce padding on smaller screens */
+      margin-top: 30px; /* Adjust margin on smaller screens */
+  }
+
+  .order-page h2 {
+      font-size: 22px; /* Slightly smaller font size on mobile */
+  }
+
+  .order-page .filters {
+      flex-direction: column; /* Stack filters vertically on small screens */
+      align-items: flex-start; /* Align items to the start */
+  }
+
+  .order-page .filters select,
+  .order-page .filters button {
+      width: 100%; /* Full width on mobile devices */
+      margin-bottom: 10px; /* Space between stacked elements */
+  }
+}
+
+  
